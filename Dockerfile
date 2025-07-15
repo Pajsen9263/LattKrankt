@@ -10,11 +10,6 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install --force
 
-# Copy the rest of the app files
-COPY . .
-
-# Set the environment variable for production
-ENV NODE_ENV production
 
 # Expose the Next.js app port
 EXPOSE 3000
