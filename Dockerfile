@@ -1,5 +1,5 @@
 # Use Node.js LTS version as the base image (Debian variant)
-FROM node:20-slim
+FROM node:20
 
 # Set the working directory inside the container
 WORKDIR /app
